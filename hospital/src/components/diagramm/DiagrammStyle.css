@@ -1,0 +1,32 @@
+.donut{
+    width: 30%;
+    margin-left: 70%;
+    margin-top: 5%;
+    font-size: 8px;
+}
+
+.display__article{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.display__info{
+    display: flex;
+}
+
+.display__text{
+    margin: 2%;
+}
+
+.title{
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.text{
+    text-transform: capitalize;
+    color: #9097A2;
+}
