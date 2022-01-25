@@ -1,5 +1,5 @@
 import React from "react";
-import DiagrammStyle from "../diagramm/DiagrammStyle.css";
+import "../diagramm/DiagrammStyle.css";
 
 function Diagramm(){
     return(

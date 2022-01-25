@@ -5,20 +5,12 @@ import { SYMPTOM_NAME } from "../../constants";
 
 const Profile = ({symptoms, comment, setComment}) => {
 
-    const createProfileCheckbox = () => {
-        return symptoms.map((item) =>(
-            <div key={item} className="profile__checkbox__item">
-                {SYMPTOM_NAME[item]}
-            </div>
-        ))
-    };
-
     useEffect(() => {
         if(symptoms.length === 0){
             setComment('')
         }
     },[symptoms]);
-    
+
     return(
         <div className="profile">
             <div className="profile__full">
@@ -34,7 +26,11 @@ const Profile = ({symptoms, comment, setComment}) => {
             </div>
             <div className="profile__checkbox">
                 {
-                    createProfileCheckbox()
+                    symptoms.map((item) =>(
+                        <div key={item} className="profile__checkbox__item">
+                            {SYMPTOM_NAME[item]}
+                        </div>
+                    ))
                 }
             </div>
             <div className="profile__comment">Comment</div>

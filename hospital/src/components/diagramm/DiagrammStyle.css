@@ -1,14 +1,14 @@
 .donut{
-    width: 30%;
-    margin-left: 70%;
+    width: 22%;
+    margin-left: 90%;
     margin-top: 5%;
     font-size: 8px;
 }
 
 .display__article{
     display: flex;
-    width: 90%;
-    margin-left: 10%;
+    width: 89%;
+    margin-left: 8%;
 }
 
 .display__text{
@@ -21,6 +21,7 @@
     font-family: Avenir;
     font-weight: 500;
     margin-bottom: 8px;
+    margin-left: 32px;
     letter-spacing: 0.15px;
 }
 
@@ -29,4 +30,5 @@
     color: #5E6878;
     font-family: Avenir;
     font-size: 18px;
+    margin-left: 32px;
 }

@@ -1,7 +1,7 @@
 .profile{
     width: 292px;
     box-shadow: 0 0 7px 5px rgba(221, 221, 221, 1);
-    margin: 3% 3% 8% 4%;
+    margin: 0% 0% 0% 4%;
     height: 70%;
 }
 
@@ -67,14 +67,15 @@
 .profile__comment{
     color: #6c7075;
     font-size: 16px;
-    margin-left: 15px;
+    margin-left: 20px;
+    margin-bottom: 8px;
     font-weight: 800;
     padding: 5px;
     font-family: Avenir;
 }
 
 .profile__text{
-    margin-left: 7%;
+    margin-left: 9%;
     margin-right: 4%;
     margin-bottom: 3%;
     word-wrap: break-word;
@@ -83,8 +84,9 @@
 .profile__checkbox{
     display: flex;
     flex-wrap: wrap;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 14px;
 }
 
 .profile__checkbox__item{
