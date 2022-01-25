@@ -27,7 +27,7 @@ const Checkbox = ({label, id, handleChange, checked}) => (
 );  
 
 const symptomsList = [
-    {id:SYMPTOM_ID.COVID ,image:first, value:SYMPTOM_NAME[SYMPTOM_ID.COVID]},
+    {id:SYMPTOM_ID.COVID ,image:first, value:SYMPTOM_NAME[SYMPTOM_ID.COVID], isChose: false},
     {id:SYMPTOM_ID.FEVER, image:second, value:SYMPTOM_NAME[SYMPTOM_ID.FEVER]},
     {id:SYMPTOM_ID.COUGH, image:third, value:SYMPTOM_NAME[SYMPTOM_ID.COUGH]},
     {id:SYMPTOM_ID.SORE, image:forth, value:SYMPTOM_NAME[SYMPTOM_ID.SORE]},
@@ -39,14 +39,15 @@ const symptomsList = [
     {id:SYMPTOM_ID.OTHER, image:tenth, value:SYMPTOM_NAME[SYMPTOM_ID.OTHER]},
 ];
 
-function Choice(props){
+function Choice({setSymptoms, setIsDisabled, isDisabled}){
 
     const handleChange = (e) => {
         const {value, checked} = e.target;
         if(checked){
-            props.setSymptoms((prev)=>[...prev,value]);       
+            setIsDisabled(false);
+            setSymptoms((prev)=>[...prev, value]);       
         }else {
-            props.setSymptoms((prev)=>prev.filter((item) => item !== value ));
+            setSymptoms((prev)=>prev.filter((item) => item !== value ));
         }
     };
 

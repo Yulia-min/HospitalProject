@@ -1,7 +1,8 @@
 .button{
     display: flex;
-    margin-left: 68%;
-    margin-bottom: 3%;
+    margin-left: 64%;
+    margin-top: 2%;
+    margin-bottom: 2%;
 }
 
 .button__cancel{
@@ -33,6 +34,29 @@
     width: 80px;
 }
 
+.button__next button:disabled{
+    border: 1px solid #F3F6FC;
+    text-align: center;
+    color: #F3F6FC;
+    background: #1E427B;
+    padding: 5px;
+    font-size: 12px;
+    width: 80px;
+    opacity: 0.5;
+}
+
+.button__next button:disabled:hover{
+    border: 1px solid #F3F6FC;
+    text-align: center;
+    color: #F3F6FC;
+    background: #1E427B;
+    padding: 5px;
+    font-size: 12px;
+    width: 80px;
+    opacity: 0.5;
+    cursor:default;
+}
+
 .button__cancel button:hover{
     cursor: pointer;
     border: 1px solid #F3F6FC;
@@ -56,3 +80,4 @@
     background: #F3F6FC;
     transition: 1s;
 }
+

@@ -7,12 +7,8 @@
 
 .display__article{
     display: flex;
-    width: 100%;
-    justify-content: center;
-}
-
-.display__info{
-    display: flex;
+    width: 90%;
+    margin-left: 10%;
 }
 
 .display__text{
@@ -21,12 +17,16 @@
 
 .title{
     text-transform: capitalize;
-    font-size: 20px;
-    font-weight: 600;
-    margin-bottom: 10px;
+    font-size: 22px;
+    font-family: Avenir;
+    font-weight: 500;
+    margin-bottom: 8px;
+    letter-spacing: 0.15px;
 }
 
 .text{
     text-transform: capitalize;
-    color: #9097A2;
+    color: #5E6878;
+    font-family: Avenir;
+    font-size: 18px;
 }

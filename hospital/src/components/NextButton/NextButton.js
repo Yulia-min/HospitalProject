@@ -1,14 +1,14 @@
 import React from "react";
-import NextButtonStyle from "../NextButton/NextButtonStyle.css"
+import "../NextButton/NextButtonStyle.css";
 
-function NextButton(){
+function NextButton({isDisabled}){
     return(
         <div className="button">
             <div className="button__cancel">
                 <button>Cancel</button>
             </div>
             <div className="button__next">
-                <button type="button">Next</button>
+                <button onClick={() => console.log('click')} type="button" disabled={isDisabled}>Next</button>
             </div>
         </div>
     )
