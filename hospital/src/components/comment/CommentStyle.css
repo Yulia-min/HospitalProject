@@ -1,0 +1,36 @@
+.comment{
+    position: relative;
+    width: 45%;
+    margin-left: 32%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.comment textarea{
+    color: #000;
+    border: 1.5px solid rgb(165, 165, 163);
+    box-shadow: 0 0 2px 0 rgb(209, 207, 207);
+    height: 70px;
+    outline: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.comment label {
+    color: rgb(165, 161, 161);  
+    background-color: #FFF;
+    pointer-events: none;
+    position: absolute;
+    transition: all 200ms;
+    top: 15px;
+    left: 10px;
+}
+
+.comment textarea:focus + label,
+.comment textarea:not(:placeholder-shown) + label{
+    top: -8px;
+    left: 10px;
+    font-size: 11px; 
+    background-color: #ffffff;
+    color: rgb(119, 118, 118);
+}

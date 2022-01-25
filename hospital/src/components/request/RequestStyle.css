@@ -1,0 +1,14 @@
+.display__info{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.heading{
+    text-transform: capitalize;
+    font-family: Libre Baskerville;
+    font-size: 48px;
+    font-weight: normal;
+    text-align: center;
+    margin: 1%;
+}
+
