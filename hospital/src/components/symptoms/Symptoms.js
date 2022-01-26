@@ -1,7 +1,7 @@
 import React from "react";
 import {Checkbox} from '../checkbox/Checkbox';
 
-const Symptoms = ({item, key, setSymptoms, setIsDisabled}) =>{
+const Symptoms = ({item, setSymptoms, setIsDisabled}) =>{
 
     const handleChange = (e) => {
         const {value, checked} = e.target;
@@ -14,7 +14,7 @@ const Symptoms = ({item, key, setSymptoms, setIsDisabled}) =>{
     };
 
     return(
-        <div className="checkbox__item" key={key}>
+        <div className="checkbox__item">
                 <div className="checkbox__photo">
                     <img src={item.image}/>
                 </div>

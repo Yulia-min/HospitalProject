@@ -26,8 +26,8 @@ const Profile = ({symptoms, comment, setComment}) => {
             </div>
             <div className="profile__checkbox">
                 {
-                    symptoms.map((item) =>(
-                        <SyptomsItem item={item}/>
+                    symptoms.map((item, key) =>(
+                        <SyptomsItem item={item} key={key}/>
                     ))
                 }
             </div>
