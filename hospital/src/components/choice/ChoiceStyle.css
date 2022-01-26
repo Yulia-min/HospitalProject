@@ -1,7 +1,7 @@
 .checkbox{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 10100px;
     margin-bottom: 24px;
     height: 400px;
 }
@@ -18,7 +18,7 @@
     justify-content: space-between;
     align-items: center;
     border: 1px solid #DDE0E4;
-    width: 98%;
+    width: 650px;
     margin-bottom: 12px;
 }
 

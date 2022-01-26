@@ -2,7 +2,7 @@
     display: flex;
     margin: 0 auto;
     position: relative;
-    width: 34%;
+    width: 667px;
 }
 
 .comment textarea{
@@ -11,7 +11,7 @@
     box-shadow: 0 0 2px 0 rgb(209, 207, 207);
     height: 70px;
     outline: 0;
-    width: 100%;
+    width: 1000px;
     padding: 10px;
 }
 
