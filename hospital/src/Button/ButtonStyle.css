@@ -80,3 +80,11 @@
     transition: 1s;
 }
 
+
+@media screen and (min-width: 1200px) {
+    .button{
+        display: flex;
+        margin-left: 900px;
+        margin-top: 40px;
+    }    
+} 

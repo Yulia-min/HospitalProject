@@ -31,3 +31,11 @@
     font-size: 18px;
     margin-left: 2px;
 }
+
+@media screen and (min-width: 1200px) {
+    .display__article{
+        display: flex;
+        width: 600px;
+        margin-left: 620px;
+    } 
+}

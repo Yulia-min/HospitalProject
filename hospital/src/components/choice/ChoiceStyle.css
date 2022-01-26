@@ -82,4 +82,30 @@
 }
 
 
+@media screen and (min-width: 1200px) {
+    .checkbox{
+        display: flex;
+        justify-content: center;
+        width: 10000px;
+        margin-bottom: 24px;
+        height: 600px;
+    }
+    
+    .checkbox__full{
+        height: 100%;
+        width: 800px;
+        overflow: scroll;
+        overflow-x:hidden;
+    }
+    
+    .checkbox__item{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border: 1px solid #DDE0E4;
+        width: 780px;
+        margin-bottom: 12px;
+    }   
+} 
+
   

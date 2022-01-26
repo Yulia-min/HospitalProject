@@ -33,3 +33,13 @@
     background-color: #ffffff;
     color: rgb(119, 118, 118);
 }
+
+@media screen and (min-width: 1200px) {
+    .comment{
+        display: flex;
+        margin: 0 auto;
+        position: relative;
+        width: 790px;
+    }  
+} 
+
