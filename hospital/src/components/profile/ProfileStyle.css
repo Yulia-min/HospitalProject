@@ -1,21 +1,26 @@
 .profile{
+    position: absolute;
     width: 292px;
-    box-shadow: 0 0 7px 5px rgba(221, 221, 221, 1);
-    margin: 0% 0% 0% 4%;
-    height: 70%;
+    margin: 0% 0% 0% 13%;
+    background: #FFFFFF;
+    border: 1px solid #DDE0E4;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 8px rgba(14, 67, 109, 0.16);
+    border-radius: 4px;
 }
 
 .profile__full{
     display: flex;
-    padding: 15px;
 }
 
 .profile__photo{
     display: inline-block;
     border-radius: 50%;
+    border: 1px solid #DDE0E4;
     overflow: hidden;
-    width: 50px;
-    height: 50px;
+    height: 60px;
+    margin-top: 24px;
+    margin-left: 24px;
 }
 
 .profile__photo img{
@@ -25,60 +30,74 @@
 }
 
 .profile__info{
-    margin-left: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .profile__name{
-    font-weight: 400;
-    padding-bottom: 2px;
-    font-size: 18px;
-    width: 96px;
-    height: 24px;
     font-family: Avenir;
+    font-size: 18px;
+    line-height: 24px;    
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    color: #090A0B;
+    margin-bottom: 8px;
+    margin-top: 24px;
 }
 
 .profile__data{
-    color: #797e86;
-    padding: 2px;
-    font-size: 16px;
     font-family: Avenir;
-    width: 131px;
-    height: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;   
+    color: #5E6878;
+    margin-bottom: 12px;
 }
 
 .profile__number{
-    color: #2858A3;
-    padding: 2px;
-    width: 111px;
-    height: 20px;
     font-family: Avenir;
     font-size: 16px;
+    margin-bottom: 8px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize;
+    color: #2858A3;
 }
 
 .profile__email{
-    color: #2858A3;    
-    padding: 2px;
-    width: 111px;
-    height: 20px;
     font-family: Avenir;
     font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-transform: capitalize; 
+    color: #2858A3;
 }
 
 .profile__comment{
-    color: #6c7075;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 800;
     font-size: 16px;
+    line-height: 20px;   
+    letter-spacing: 0.1px;
+    text-transform: capitalize;
+    color: #5E6878;
     margin-left: 20px;
     margin-bottom: 8px;
-    font-weight: 800;
-    padding: 5px;
-    font-family: Avenir;
 }
 
 .profile__text{
-    margin-left: 9%;
-    margin-right: 4%;
-    margin-bottom: 3%;
+    font-family: Avenir;
+    font-size: 16px;
+    line-height: 20px;    
+    letter-spacing: 0.25px;
+    text-transform: capitalize;   
+    color: #090A0B;
+    margin-left: 20px;
+    margin-right: 20px;
     word-wrap: break-word;
+    margin-bottom: 23px;
 }
 
 .profile__checkbox{
@@ -86,7 +105,8 @@
     flex-wrap: wrap;
     margin-left: 5px;
     margin-right: 5px;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
+    margin-top: 16px;
 }
 
 .profile__checkbox__item{

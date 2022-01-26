@@ -1,12 +1,14 @@
 .checkbox{
-    width: 50%;
-    margin-bottom: 20px;
-    height: 300px;
-    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 24px;
+    height: 400px;
 }
 
 .checkbox__full{
     height: 100%;
+    width: 665px;
     overflow: scroll;
     overflow-x:hidden;
 }
@@ -15,19 +17,24 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid rgb(233, 229, 229);
-    width: 90%;
+    border: 1px solid #DDE0E4;
+    width: 98%;
     margin-bottom: 12px;
-    padding: 1%;
-    box-shadow: 0 0 2px 0 rgb(226, 224, 224);
 }
 
 .checkbox__text{
     display: flex;
     flex-grow: 1;
-    margin-left: 18px;
+    font-family: Avenir;
+    margin-left: 13px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    color: #090A0B;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    letter-spacing: 0.5px;
     text-transform: capitalize;
-    cursor: default;
 }
 
 .checkbox__photo{

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import CommentStyle from "../comment/CommentStyle.css";
+import "../comment/CommentStyle.css";
 
 function Comment(props){
 

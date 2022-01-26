@@ -1,8 +1,8 @@
 .comment{
     display: flex;
-    margin-left: 30%;
+    margin: 0 auto;
     position: relative;
-    width: 46%;
+    width: 35.5%;
 }
 
 .comment textarea{

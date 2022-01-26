@@ -1,13 +1,13 @@
 .button{
     display: flex;
-    margin-left: 60%;
-    margin-top: 2%;
+    margin-left: 59%;
+    margin-top: 40px;
     margin-bottom: 2%;
 }
 
 .button__cancel{
     display: flex;
-    flex-grow: 0.1;
+    flex-grow: 0.01;
 }
 
 .button__next{

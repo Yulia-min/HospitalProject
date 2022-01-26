@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import profilePhoto from "../../image/profile.png";
 import "../profile/ProfileStyle.css";
-import { SYMPTOM_NAME } from "../../constants";
+import SyptomsItem from "../symptomsItem/SymptomsItem";
 
 const Profile = ({symptoms, comment, setComment}) => {
 
@@ -27,15 +27,13 @@ const Profile = ({symptoms, comment, setComment}) => {
             <div className="profile__checkbox">
                 {
                     symptoms.map((item) =>(
-                        <div key={item} className="profile__checkbox__item">
-                            {SYMPTOM_NAME[item]}
-                        </div>
+                        <SyptomsItem item={item}/>
                     ))
                 }
             </div>
             <div className="profile__comment">Comment</div>
             <div className="profile__text">
-                { Boolean(symptoms.length) && comment}
+                { !!symptoms.length && comment}
             </div>
         </div>    
     )

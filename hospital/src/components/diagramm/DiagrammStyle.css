@@ -1,14 +1,13 @@
 .donut{
     width: 22%;
     margin-left: 90%;
-    margin-top: 5%;
+    margin-top: 7%;
     font-size: 8px;
 }
 
 .display__article{
     display: flex;
-    width: 89%;
-    margin-left: 8%;
+    margin-left: 17.5%;
 }
 
 .display__text{
