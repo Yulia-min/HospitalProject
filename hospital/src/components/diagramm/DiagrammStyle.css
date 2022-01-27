@@ -7,7 +7,6 @@
 .display__article{
     display: flex;
     width: 500px;
-    margin-left: 620px;
     margin: 0% auto;
 }
 

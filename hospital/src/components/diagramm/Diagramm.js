@@ -6,14 +6,14 @@ function Diagramm(){
         <div className="display__article">
             <div className="circle">
                 <svg  viewBox="0 0 40 40" className="donut">
-                    <circle cx="10" cy="21" r="15.91549430918954" fill="#fff"></circle>
-                    <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" strokeWidth="2"></circle>
-                    <circle cx="21" cy="21" r="15.91549430918954" fill="transparent" stroke="darkblue" strokeWidth="2" strokeDasharray="40 60" strokeDashoffset="25"></circle>
+                    <circle cx="13" cy="11" r="15.91549430918954" fill="#fff"></circle>
+                    <circle cx="17" cy="21" r="15.91549430918954" fill="transparent" stroke="#d2d3d4" strokeWidth="2"></circle>
+                    <circle cx="17" cy="21" r="15.91549430918954" fill="transparent" stroke="darkblue" strokeWidth="2" strokeDasharray="40 60" strokeDashoffset="25"></circle>
                     <g>
-                        <text x="27%" y="60%" fill="darkblue">
+                        <text x="17%" y="60%" fill="darkblue">
                             2 of
                         </text>
-                        <text x="68%" y="60%" fill="gray">
+                        <text x="58%" y="60%" fill="gray">
                             5
                         </text>
                     </g>

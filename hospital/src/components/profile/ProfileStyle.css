@@ -1,7 +1,7 @@
 .profile{
-    position: absolute;
+    position: relative;
     width: 292px;
-    margin-left: 250px;
+    margin-left: 50px;
     background: #FFFFFF;
     border: 1px solid #DDE0E4;
     box-sizing: border-box;
@@ -126,9 +126,9 @@
 
 @media screen and (min-width: 1200px) {
     .profile{
-        position: absolute;
+        position:absolute;
         width: 300px;
-        margin-left: 40px;
+        margin-left: 300px;
         background: #FFFFFF;
         border: 1px solid #DDE0E4;
         box-sizing: border-box;

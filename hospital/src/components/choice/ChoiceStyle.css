@@ -86,7 +86,6 @@
     .checkbox{
         display: flex;
         justify-content: center;
-        width: 11300px;
         margin-bottom: 24px;
         height: 500px;
     }
