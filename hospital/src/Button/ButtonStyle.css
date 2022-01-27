@@ -1,6 +1,6 @@
 .button{
     display: flex;
-    margin-left: 1100px;
+    margin-left: 720px;
     margin-top: 40px;
 }
 
@@ -84,7 +84,7 @@
 @media screen and (min-width: 1200px) {
     .button{
         display: flex;
-        margin-left: 900px;
+        margin-left: 710px;
         margin-top: 40px;
     }    
 } 
