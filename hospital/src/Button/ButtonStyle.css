@@ -1,7 +1,7 @@
 .button{
     display: flex;
     margin-top: 15px;
-    margin-left: 510px;
+    margin-left: 500px;
 }
 
 .button__cancel{
@@ -11,6 +11,7 @@
 
 .button__next{
     display: flex;
+    margin-left: 20px;
 }
 
 .button__cancel button{
@@ -24,7 +25,7 @@
 }
 
 .button__next button{
-    border: 1px solid #F3F6FC;
+    border: 1px solid #1E427B;
     text-align: center;
     color: #F3F6FC;
     background: #1E427B;
@@ -34,7 +35,7 @@
 }
 
 .button__next button:disabled{
-    border: 1px solid #F3F6FC;
+    border: 1px solid #1E427B;
     text-align: center;
     color: #F3F6FC;
     background: #1E427B;
@@ -84,15 +85,6 @@
 @media screen and (min-width: 1200px) {
     .button{
         display: flex;
-        margin-left: 340px;
+        margin-left: 470px;
     }    
-
-    .button__cancel{
-        display: flex;
-        flex-grow: 0.1;
-    }
-    
-    .button__next{
-        display: flex;       
-    }
 } 

@@ -86,12 +86,12 @@
         display: flex;
         margin-bottom: 24px;
         height: 500px;
-        width: 100%;
+        width: 1800px;
     }
     
     .checkbox__full{
         height: 100%;
-        width: 500px;
+        width: 600px;
         overflow: scroll;
         overflow-x:hidden;
     }
@@ -101,7 +101,7 @@
         justify-content: space-between;
         align-items: center;
         border: 1px solid #DDE0E4;
-        width: 480px;
+        width: 580px;
         margin-bottom: 12px;
     }   
 } 

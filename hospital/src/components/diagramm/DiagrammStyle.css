@@ -34,6 +34,8 @@
 
 @media screen and (min-width: 1200px) {
     .display__article{
-      margin: 0% auto;
+        display: flex;
+        width: 600px;
+        margin: 0% auto;
     } 
 }
