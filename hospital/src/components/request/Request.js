@@ -14,12 +14,14 @@ function Request(){
     return(
         <div>
             <div className="heading">Requesting the doctor</div>
-            <Diagramm/>
             <div className="display__info">
                 <Profile symptoms={symptoms} comment={comment} setComment={setComment}/>
-                <SymptomsList symptoms={symptoms} setSymptoms={setSymptoms} comment={comment} setComment={setComment} isDisabled={isDisabled} setIsDisabled={setIsDisabled}/>
+                <div className="choice__full">
+                    <Diagramm/>
+                    <SymptomsList symptoms={symptoms} setSymptoms={setSymptoms} comment={comment} setComment={setComment} isDisabled={isDisabled} setIsDisabled={setIsDisabled}/>
+                    <NextButton symptoms={symptoms} isDisabled={symptoms.length === 0}/>
+                </div>
             </div>
-            <NextButton symptoms={symptoms} isDisabled={symptoms.length === 0}/>
         </div>
     )
 }

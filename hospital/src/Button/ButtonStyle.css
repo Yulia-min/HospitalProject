@@ -1,12 +1,12 @@
 .button{
     display: flex;
-    margin-left: 770px;
-    margin-top: 40px;
+    margin-top: 15px;
+    margin-left: 510px;
 }
 
 .button__cancel{
     display: flex;
-    flex-grow: 0.01;
+    flex-grow: 0.1;
 }
 
 .button__next{
@@ -84,7 +84,15 @@
 @media screen and (min-width: 1200px) {
     .button{
         display: flex;
-        margin-top: 40px;
-        margin-left: 700px;
+        margin-left: 340px;
     }    
+
+    .button__cancel{
+        display: flex;
+        flex-grow: 0.1;
+    }
+    
+    .button__next{
+        display: flex;       
+    }
 } 

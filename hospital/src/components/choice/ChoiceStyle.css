@@ -1,7 +1,6 @@
 .checkbox{
     display: flex;
     justify-content: center;
-    width: 10100px;
     margin-bottom: 24px;
     height: 400px;
 }
@@ -85,9 +84,9 @@
 @media screen and (min-width: 1200px) {
     .checkbox{
         display: flex;
-        justify-content: center;
         margin-bottom: 24px;
         height: 500px;
+        width: 100%;
     }
     
     .checkbox__full{

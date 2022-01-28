@@ -1,6 +1,8 @@
 .display__info{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 780px;
+    margin: 0 auto;
 }
 
 .heading{
@@ -11,3 +13,24 @@
     text-align: center;
 }
 
+.choice__full{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 500px;
+}
+
+@media screen and (min-width: 1200px) {
+    .choice__full{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        width: 500px;
+    }    
+    .display__info{
+        display: flex;
+        justify-content: flex-start;
+        width: 1450px;
+        margin: 0 auto;
+    }
+}
