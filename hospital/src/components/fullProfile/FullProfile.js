@@ -2,8 +2,11 @@ import React, { useEffect } from "react";
 import NullProfile from "./nullprofile/NullProfile";
 import FriendsProfile from "./friendsProfile/FriendsProfyle";
 import FamilyProfile from "./familyProfile/FamilyProfile";
+import profilePhoto from '../../image/profile.png';
+import vector from "../../image/Vector.png";
 import  "./FullProfyleStyle.css";
 import {data} from '../data';
+import FullItem from "./FullItem";
 
 const FullProfile = ({setIsDisabled, familyList, setFamilyList, friendsList, setFriendsList}) =>{ 
 
@@ -43,9 +46,30 @@ const FullProfile = ({setIsDisabled, familyList, setFamilyList, friendsList, set
     
     return(
         <>
-            <NullProfile handleChange={handleChange}/>
+            <div className="profile__text__1">You</div>
+            {
+                data.filter(item => item.relation === null)
+                .map(item => 
+                    <FullItem item={item}/>
+                )
+            }
+            <div className="full__checkbox__text">Family</div>
+            {
+                data.filter(item => item.relation === 'family')
+                .map(item => 
+                    <FullItem item={item}/>
+                )                          
+            }
+            <div className="full__checkbox__text">Friends</div>
+            {
+                data.filter(item => item.relation === 'friends')
+                .map(item => 
+                    <FullItem item={item}/>
+                )                          
+            }
+            {/* <NullProfile handleChange={handleChange}/>
             <FamilyProfile  familyList={familyList} setFamilyList={setFamilyList} setIsDisabled={setIsDisabled} handleChange={handleChange}/>
-            <FriendsProfile friendsList={friendsList} setFriendsList={setFriendsList} setIsDisabled={setIsDisabled} handleChange={handleChange}/>
+            <FriendsProfile friendsList={friendsList} setFriendsList={setFriendsList} setIsDisabled={setIsDisabled} handleChange={handleChange}/> */}
         </>
     )
 }
