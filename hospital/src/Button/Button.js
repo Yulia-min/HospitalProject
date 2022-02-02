@@ -6,8 +6,13 @@ import NextButton from "./NextButtom/NextButton";
 function Button({isDisabled}){
     return(
         <div className="button">
-            <CancelButton/>
-            <NextButton isDisabled={isDisabled}/>
+            <div>
+                <CancelButton/>
+            </div>
+            <div className="two__buttons">
+                <CancelButton/>
+                <NextButton isDisabled={isDisabled}/>
+            </div>
         </div>
     )
 }

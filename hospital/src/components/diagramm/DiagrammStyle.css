@@ -6,7 +6,7 @@
 
 .display__article{
     display: flex;
-    width: 500px;
+    width: 664px;
     margin: 0% auto;
 }
 
@@ -30,12 +30,4 @@
     font-family: Avenir;
     font-size: 18px;
     margin-left: 2px;
-}
-
-@media screen and (min-width: 1200px) {
-    .display__article{
-        display: flex;
-        width: 700px;
-        margin: 0% auto;
-    } 
 }

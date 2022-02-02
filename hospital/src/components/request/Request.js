@@ -1,25 +1,24 @@
 import React, { useState } from "react";
 import "../request/RequestStyle.css";
 import Diagramm from "../diagramm/Diagramm";
-import Profile from "../profile/Profile";
-import { SymptomsList } from "../../syptomsList/SymptomsList";
 import NextButton from "../../Button/Button";
+import FullProfile from "../fullProfile/FullProfile";
 
 function Request(){ 
 
-    const [symptoms, setSymptoms] = useState([]);
-    const [comment, setComment] = useState('');
-    const [isDisabled, setIsDisabled] = useState(true);
+    const [familyList, setFamilyList] = useState([]);
+    const [friendsList, setFriendsList] = useState([]);
+
+    const [isDisabled, setIsDisabled] = useState(true); 
 
     return(
         <div>
             <div className="heading">Requesting the doctor</div>
             <div className="display__info">
-                <Profile symptoms={symptoms} comment={comment} setComment={setComment}/>
                 <div className="choice__full">
                     <Diagramm/>
-                    <SymptomsList symptoms={symptoms} setSymptoms={setSymptoms} comment={comment} setComment={setComment} isDisabled={isDisabled} setIsDisabled={setIsDisabled}/>
-                    <NextButton symptoms={symptoms} isDisabled={symptoms.length === 0}/>
+                    <FullProfile  friendsList={friendsList} setFriendsList={setFriendsList} setIsDisabled={setIsDisabled} familyList={familyList} setFamilyList={setFamilyList}/>
+                    <NextButton  isDisabled={isDisabled} /> 
                 </div>
             </div>
         </div>
